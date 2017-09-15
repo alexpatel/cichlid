@@ -36,7 +36,7 @@ until you maximize some utility function
 
 # Paper/argument scratchpad
 
-- From ASPLOS discussion, first what is the problem to solve:
+- From [ASPLOS discussion](https://github.com/Harvard-PRINCESS/documents/wiki/ASPLOS18-sub-open-discussion), first what is the problem to solve:
     - "Margo: we want to work with legacy systems (and
     barrelfish is a legacy system), and build generalizable techniques that can be
     applied to any traditional or well-designed non-traditional kernel"
