@@ -64,15 +64,15 @@ until you maximize some utility function
         behave exactly the same
             - Is there differing behavior across different MIPS chips that is
             relevant for porting to MIPS?
-        - Using logic of lambda calculus/type theory assumes a *perfect* model of
-        your computer, exactly the same as a Turing machine.
-            - Porting is about working with the hardware, is it true that one
-            can just equate CPUs and turing machines
-                - Your CPU 
     - Observation from philosophy: logic is the science of thought, lambda
     calculus is an applied logic
         - Goldfarb: "Lambda calculus = turing machines = HGK systems, so I'm going
         to teach you HGK because I like that one"
+        - Does using lambda calculus/type theory logic assume a *perfect* model of
+        your computer, that process is just the same as a physical Turing machine.
+            - If yes, then why is Intel making new processor (performance, CPU features, etc.)
+            - Porting is about working with the hardware, is it true that one
+            can just equate CPUs and turing machines
 
 - Positive argument: formalize the porting process instead
     - Do you have to model how the CPU works in order to port your kernel
