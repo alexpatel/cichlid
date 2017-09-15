@@ -1,6 +1,8 @@
 # cichlid
 
-Alex's 263 project on automated porting. * [Asana Project](https://app.asana.com/0/430530769407377/430530769407377).
+Alex's 263 project on automated porting.
+
+[Asana Project](https://app.asana.com/0/430530769407377/430530769407377).
 
 From [Wikipedia, "Adaptive Radiation"](https://en.wikipedia.org/wiki/Adaptive_radiation#Cichlid_fish):
 
