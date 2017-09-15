@@ -19,11 +19,16 @@ the adaptive radiations here are sometimes so young.
 # Notes from James 9/15
 
 - ironclad
-- trying to figure out mutation function that takes current port and tweak it until you maximize some utility function
-- genetic programming            
+- trying to figure out mutation function that takes current port and tweak it
+until you maximize some utility function
+    - maybe genetic programming, AI techniques
 - start with something very small
-- start with sorting             
-- come up with your own ideas and then search about genetic algorithm
+- start with SORTING
+    - you have two sorting functions `f(ints)` and `g(ints)` where `f` is incorrect and `g` is correct
+    - how do you transform (mutate) `f` into `g` so that f is correct
+    - if you can do that then you can do porting it's just computer code
+- come up with your own ideas, don't read any other papers and pollute your head
+- then google about genetic algorithms
 - write a paragraph in english about high level goal
     - functional notions of correctness that don't require formal steps 
     - the concrete application is if u have existing piece of software  
