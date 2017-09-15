@@ -16,6 +16,24 @@ another, allowing them, and many of the organisms they live with, to evolve
 separately. The diversity of the lakes is in fact quite extraordinary because
 the adaptive radiations here are sometimes so young.
 
+# Notes from James 9/15
+
+- ironclad - why aren't u using this in princess
+- trying to figure out mutation function that takes current port and tweak it
+until you maximize some utility function
+    - maybe genetic programming, AI techniques
+- start with something very small
+- start with SORTING
+    - you have two sorting functions `f(ints)` and `g(ints)` where `f` is incorrect and `g` is correct
+    - how do you transform (mutate) `f` into `g` so that f is correct
+    - if you can do that then you can do porting it's just computer code
+- come up with your own ideas, don't read any other papers and pollute your head
+- then google about genetic algorithms in like 4-5 days from now
+- write the introduction before you do any research 
+- write a paragraph in english about high level goal
+    - functional notions of correctness that don't require formal steps 
+    - the concrete application is if u have existing piece of software  
+
 # Paper/argument scratchpad
 
 - From ASPLOS discussion, first what is the problem to solve:
@@ -119,24 +137,6 @@ the adaptive radiations here are sometimes so young.
         includes starting new threads, dealing with hardware interrupts or software
         exceptions, copying data from/to user applications, serving system calls, and
         so on."
-
-# Notes from James 9/15
-
-- ironclad - why aren't u using this in princess
-- trying to figure out mutation function that takes current port and tweak it
-until you maximize some utility function
-    - maybe genetic programming, AI techniques
-- start with something very small
-- start with SORTING
-    - you have two sorting functions `f(ints)` and `g(ints)` where `f` is incorrect and `g` is correct
-    - how do you transform (mutate) `f` into `g` so that f is correct
-    - if you can do that then you can do porting it's just computer code
-- come up with your own ideas, don't read any other papers and pollute your head
-- then google about genetic algorithms in like 4-5 days from now
-- write the introduction before you do any research 
-- write a paragraph in english about high level goal
-    - functional notions of correctness that don't require formal steps 
-    - the concrete application is if u have existing piece of software  
 
 # References
 
