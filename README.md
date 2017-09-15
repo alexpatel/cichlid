@@ -10,8 +10,10 @@ From [Wikipedia, "Adaptive Radiation"](https://en.wikipedia.org/wiki/Adaptive_ra
 
 # References
 
-- [LWN.net - Porting Linux to a new processor architecture, part 1: The basics](https://lwn.net/Articles/654783/)
-- [LWN.net - Porting Linux to a new processor architecture, part 2: The early code](https://lwn.net/Articles/656286/)
+- LWN.net - Porting Linux to a new processor architecture
+    - [part 1: The basics](https://lwn.net/Articles/654783/)
+    - [part 2: The early code](https://lwn.net/Articles/656286/)
+    - [part 3: To the finish line](https://lwn.net/Articles/657939/)
 - [LWN.net - Porting Linux to a new architecture](https://lwn.net/Articles/597351/)
 - [Youtube - How to Port Linux to a New Processor Architecture by Joel Porquet](https://www.youtube.com/watch?v=2UVX0YPmvOA)
 - [U-Boot - the Universal Boot Loader](https://www.denx.de/wiki/U-Boot/WebHome)
@@ -19,7 +21,9 @@ From [Wikipedia, "Adaptive Radiation"](https://en.wikipedia.org/wiki/Adaptive_ra
 - [Linux Porting Guide - embedded](http://www.embedded.com/design/connectivity/4023297/Linux-Porting-Guide)
 - [Porting Linux - eLinux.org](elinux.org/images/e/e3/Masters-PortingLinux.pdf)
 - [Porting Linux on an ARM board](elinux.org/images/e/e3/Masters-PortingLinux.pdf)
-- [Porting Linux to a Homemade CPU](How to Port Linux to a New Processor Architecture by Joel Porquet)
+- [Porting Linux to a Homemade CPU](https://www.bigmessowires.com/2014/10/23/porting-linux-to-a-homemade-cpu/)
+- [Embedded Linux Conference 2016 - Porting Linux to a new processor architecture](elinux.org/images/6/64/Porquet.pdf)
+[How to Port Linux to a New Processor Architecture by Joel Porquet](https://www.youtube.com/watch?v=2UVX0YPmvOA)
 
 # Notes from James 9/15
 
