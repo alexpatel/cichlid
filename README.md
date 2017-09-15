@@ -18,7 +18,7 @@ the adaptive radiations here are sometimes so young.
 
 # Notes from James 9/15
 
-- ironclad
+- ironclad - why aren't u using this in princess
 - trying to figure out mutation function that takes current port and tweak it
 until you maximize some utility function
     - maybe genetic programming, AI techniques
@@ -56,3 +56,6 @@ CPU](https://www.bigmessowires.com/2014/10/23/porting-linux-to-a-homemade-cpu/)
 architecture](elinux.org/images/6/64/Porquet.pdf)
 - [How to Port Linux to a New Processor Architecture by Joel
 Porquet](https://www.youtube.com/watch?v=2UVX0YPmvOA)
+- [Microsoft Research - Ironclad](https://www.microsoft.com/en-us/research/project/ironclad/)
+- [Dafny programming language](https://github.com/Microsoft/dafny/)
+- [Microsft Research - SymDiff: Differential Program Verifier](https://www.microsoft.com/en-us/research/project/symdiff-differential-program-verifier/)
