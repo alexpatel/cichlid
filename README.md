@@ -18,9 +18,19 @@ the adaptive radiations here are sometimes so young.
 
 # Paper/argument scratchpad
 
-- Argumentation is dialectical, first choose the dialectic and then argue
-- In order to make positive arguments you have to sometimes make negative arguments
-- One negative argument and one positive argument
+- From ASPLOS discussion, first what is the problem to solve:
+    - "Margo: we want to work with legacy systems (and
+    barrelfish is a legacy system), and build generalizable techniques that can be
+    applied to any traditional or well-designed non-traditional kernel"
+    - "Margo: verifiable kernels are great but A DIFFERENT PROBLEM. we want
+    to mitigate the labor required to PORT AN OPERATING SYSTEM."
+
+- Things from philosophy about how to argue:
+    - Argumentation is dialectical, first choose the dialectic and then argue
+    - In order to make positive arguments you have to sometimes make negative
+    arguments. Negative arguments look like takedowns, but this is okay because
+    people can be wrong.
+    - Structure outline as one negative argument and one positive argument
 
 - Negative argument: formalizing CPU is hard, I believe it will not work
     - Intel spec is written in English, we may be trying to write semantics
@@ -50,9 +60,6 @@ the adaptive radiations here are sometimes so young.
     - Do you have to model how the CPU works in order to port your kernel
         - No, people who port kernels do not know the full spec of the CPU before they do it
         - They just sit down and screw around with the codes until it works
-    - From ASPLOS discussion: "Margo: we want to work with legacy systems (and
-    barrelfish is a legacy system), and build generalizable techniques that can be
-    applied to any traditional or well-designed non-traditional kernel"
         - How is formalizing CPU taking advantage of the legacy systems
             - Legacy systems aren't just existing kernels that work
             - It's the fact that we have an implementation of a processor that works
