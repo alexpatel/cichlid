@@ -20,3 +20,15 @@ From [Wikipedia, "Adaptive Radiation"](https://en.wikipedia.org/wiki/Adaptive_ra
 - [Porting Linux - eLinux.org](elinux.org/images/e/e3/Masters-PortingLinux.pdf)
 - [Porting Linux on an ARM board](elinux.org/images/e/e3/Masters-PortingLinux.pdf)
 - [Porting Linux to a Homemade CPU](How to Port Linux to a New Processor Architecture by Joel Porquet)
+
+# Notes from James 9/15
+
+- ironclad
+- trying to figure out mutation function that takes current port and tweak it until you maximize some utility function
+- genetic programming            
+- start with something very small
+- start with sorting             
+- come up with your own ideas and then search about genetic algorithm
+- write a paragraph in english about high level goal
+    - functional notions of correctness that don't require formal steps 
+    - the concrete application is if u have existing piece of software  
