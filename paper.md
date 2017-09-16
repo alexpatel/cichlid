@@ -31,7 +31,11 @@ until you maximize some utility function
     - In order to make positive arguments you have to sometimes make negative
     arguments. Negative arguments look like takedowns, but this is okay because
     people can be wrong.
-    - Structure outline as one negative argument and one positive argument
+    - Structure outline as one observation, one negative argument, and one positive argument
+
+- Observation: manual porting methods treat the CPU as a black box
+    - Manually porting an OS is a form of test-driver development
+    - How do we port a kernel? What are the steps?
 
 - Negative argument: formalizing CPU is hard, I believe it will not work
     - Intel spec is written in English, we may be trying to write semantics
