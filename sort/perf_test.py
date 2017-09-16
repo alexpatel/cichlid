@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 #
-# 
+# Perf test sorting algorithms using a lot of random numbers. 
+# Stolen from:
 #
 
 import random
