@@ -2,7 +2,6 @@
 
 Alex's 263 project on automated porting.
 
-[Asana Project](https://app.asana.com/0/430530769407377/430530769407377).
 
 > Another famous example is the cichlid fishes in lakes of the East African
 Rift. The lakes in this area are believed to support and sustain about 2,000
@@ -13,5 +12,4 @@ another, allowing them, and many of the organisms they live with, to evolve
 separately. The diversity of the lakes is in fact quite extraordinary because
 the adaptive radiations here are sometimes so young.
 
-- [Wikipedia, "Adaptive
-Radiation"](https://en.wikipedia.org/wiki/Adaptive_radiation#Cichlid_fish):
+[Asana Project](https://app.asana.com/0/430530769407377/430530769407377).
