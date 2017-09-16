@@ -4,7 +4,8 @@
 
 - [Microsoft Research - Ironclad](https://www.microsoft.com/en-us/research/project/ironclad/)
 - [Dafny programming language](https://github.com/Microsoft/dafny/)
-- [Microsft Research - SymDiff: Differential Program Verifier](https://www.microsoft.com/en-us/research/project/symdiff-differential-program-verifier/)
+- [Microsft Research - SymDiff: Differential Program
+Verifier](https://www.microsoft.com/en-us/research/project/symdiff-differential-program-verifier/)
 - [U-Boot - the Universal Boot Loader](https://www.denx.de/wiki/U-Boot/WebHome)
 - [Linux Kernel Architecture](https://www.sics.se/~amir/files/download/device-driver/arch.pdf)
 
