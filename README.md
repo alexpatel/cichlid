@@ -15,4 +15,3 @@ the adaptive radiations here are sometimes so young.
 
 - [Wikipedia, "Adaptive
 Radiation"](https://en.wikipedia.org/wiki/Adaptive_radiation#Cichlid_fish):
-
