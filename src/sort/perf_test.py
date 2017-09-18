@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #
 # Perf test sorting algorithms using a lot of random numbers. 
-# Stolen from:
+# Stolen from: https://bugs.python.org/file4451/timsort.txt
 #
 
 import random
