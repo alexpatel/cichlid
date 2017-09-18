@@ -2,31 +2,39 @@
 #
 # Correct sort implementation
 #
-# Merge sort from http://danishmujeeb.com/blog/2014/01/basic-sorting-algorithms-implemented-in-python/
-#
+# from https://gist.github.com/jvashishtha/2720700
 
-def merge_sort(items):
-    """ Implementation of mergesort """
-    if len(items) > 1:
 
-        mid = len(items) / 2        # Determine the midpoint and split
-        left = items[0:mid]
-        right = items[mid:]
+def merge(left, right):
+    if not len(left) or not len(right):
+        return left or right
 
-        merge_sort(left)            # Sort left list in-place
-        merge_sort(right)           # Sort right list in-place
+    result = []
+    i, j = 0, 0
+    while (len(result) < len(left) + len(right)):
+        if left[i] < right[j]:
+            result.append(left[i])
+            i+= 1
+        else:
+            result.append(right[j])
+            j+= 1
+        if i == len(left) or j == len(right):
+            result.extend(left[i:] or right[j:])
+            break 
 
-        l, r = 0, 0
-        for i in range(len(items)):     # Merging the left and right list
+    return result
 
-            lval = left[l] if l &lt; len(left) else None
-            rval = right[r] if r &lt; len(right) else None
 
-            if (lval and rval and lval &lt; rval) or rval is None:
-                items[i] = lval
-                l += 1
-            elif (lval and rval and lval &gt;= rval) or lval is None:
-                items[i] = rval
-                r += 1
-            else:
-                raise Exception('Could not merge, sub arrays sizes do not match the main array')
+def mergesort(list):
+    if len(list) < 2:
+        return list
+
+    middle = len(list)/2
+    left = mergesort(list[:middle])
+    right = mergesort(list[middle:])
+
+    return merge(left, right)
+
+
+if __name__ == "__main__":
+    print mergesort([3,4,5,1,2,8,3,7,6])

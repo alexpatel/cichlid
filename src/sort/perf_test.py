@@ -4,17 +4,24 @@
 # Stolen from: https://bugs.python.org/file4451/timsort.txt
 #
 
+from sort_good import merge_sort
+
 import random
 from time import clock as now
 
+format = "%5s  %9.2f  %11d"
+f2     = "%5s  %9.2f  %11.2f"
+
+
 def fill(n):
-    from random import random
     return [random() for i in xrange(n)]
+
 
 def mycmp(x, y):
     global ncmp
     ncmp += 1
     return cmp(x, y)
+
 
 def timeit(values, method):
     global ncmp
@@ -26,8 +33,6 @@ def timeit(values, method):
     t2 = now()
     return t2-t1, ncmp
 
-format = "%5s  %9.2f  %11d"
-f2     = "%5s  %9.2f  %11.2f"
 
 def drive():
     count = sst = sscmp = mst = mscmp = nelts = 0
@@ -36,13 +41,9 @@ def drive():
         nelts += n
         x = fill(n)
 
-        t, c = timeit(x, 'sort')
+        t, c = timeit(x, 'merge_sort')
         sst += t
         sscmp += c
-
-        t, c = timeit(x, 'msort')
-        mst += t
-        mscmp += c
 
         count += 1
         if count % 10:
@@ -53,4 +54,6 @@ def drive():
         print format % ("msort", mst, mscmp)
         print f2     % ("", (sst-mst)*1e2/mst, (sscmp-mscmp)*1e2/mscmp)
 
-drive()
+
+if __name__ == '__main__':
+    drive()
